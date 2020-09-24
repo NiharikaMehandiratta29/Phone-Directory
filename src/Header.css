@@ -1,0 +1,10 @@
+.header{
+    text-align: center;
+    padding: 20px;
+    background: rgb(253, 121, 59);
+    color: rgb(12, 12, 12);
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+}
