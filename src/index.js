@@ -8,7 +8,7 @@ import AddSubscriber from './AddSubscriber';
 import PhoneDirectory from './PhoneDirectory';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render( <PhoneDirectory/>,document.getElementById('root')
+ReactDOM.render( <AddSubscriber/>,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

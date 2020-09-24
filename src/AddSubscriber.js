@@ -31,7 +31,7 @@ class AddSubscriber extends Component{
         return(
            
             <div> 
-                <Header Heading="Add Subscriber"/>
+                <Header heading="Add Subscriber"/>
                 <div>
                     <button className="button">Back</button>
                     <form className="subscriber-form" onSubmit={this.onFormSubmitted.bind(this)}>
