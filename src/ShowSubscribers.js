@@ -6,42 +6,6 @@ class ShowSubscribers extends Component {
   
   
   
-  /*let subscribers=[
-    {
-      id:1,
-      name: "Niharika" ,
-      phone: "0000000"
-
-    },
-    {
-      id:2,
-      name: "Ayush" ,
-      phone: "1111111"
-
-    }
-  ]*/
-
-  constructor(){
-    super();
-    this.state={
-      subscribersListToShow:[
-
-      ]
-    }
-  }
-  
-   componentDidMount(){
-     let newSubscriber= {
-       id: 1,
-       name: "Niks" ,
-       phone: "1234567890"
-     }
-
-     let subscribersList = this.state.subscribersListToShow;
-     subscribersList.push(newSubscriber);
-     this.setState({subscribersListToShow: subscribersList})
-
-   }
 
   render(){
     return (
@@ -56,7 +20,7 @@ class ShowSubscribers extends Component {
         </div>
   
        {
-         this.state.subscribersListToShow.map(sub =>{
+         this.props.subscribersList.map(sub =>{
            return  <div key={sub.id} className="grid"> 
             <span className=" grid-item ">{sub.name}</span>
             <span className=" grid-item ">{sub.phone}</span>

@@ -5,9 +5,10 @@ import './ShowSubscribers.css';
 
 import ShowSubscribers from './ShowSubscribers';
 import AddSubscriber from './AddSubscriber';
+import PhoneDirectory from './PhoneDirectory';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render( <AddSubscriber/>,document.getElementById('root')
+ReactDOM.render( <PhoneDirectory/>,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
